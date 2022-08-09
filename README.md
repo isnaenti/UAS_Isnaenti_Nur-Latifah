@@ -42,6 +42,7 @@ public void act()
 
 Penjelasan Source Code:
 Code dibawah ini merupakan cara untuk membuat class baru yaitu keycontrol dan juga koneksi.
+
 public void act()
     {
         // Add your action code here.
@@ -49,6 +50,7 @@ public void act()
         koneksi();
     }
 Code dibawah ini yaitu isi dari class keycontrol yang fungsinya untuk mengatur bee bergerak seperti jika ingin ke kanan dengan mengklik tombol (d) pada keyboard. Jika ingin menggerakkan kearah kiri klik tombol (a), jika ingin kebawah klik tombol (s), dan klik tombol (w) untuk kearah bawah. Dan kemudian jika ingin memberhentikan bee dengan tombol gg pada keyboard.
+ 
  public void keycontrol()
     {
         if(Greenfoot.isKeyDown("d"))
@@ -76,7 +78,9 @@ Code dibawah ini yaitu isi dari class keycontrol yang fungsinya untuk mengatur b
             
         }
     }
+    
 Kemudian tuntuk dapat mengkoneksikan ke dalam database kita memerlukan code untuk dapat megkoneksikannya ke dalam database. Dibawah ini adalah sourcecode dari koneksi. 
+
 public void koneksi()
     {
         
