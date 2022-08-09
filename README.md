@@ -4,7 +4,6 @@ public void act()
     {
         // Add your action code here.
         keycontrol();
-        koneksi();
     }
     
     public void keycontrol()
@@ -35,10 +34,6 @@ public void act()
         }
     }
     
-    public void koneksi()
-    {
-        
-    }
 
 public void act()
     {
